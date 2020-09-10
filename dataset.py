@@ -2,7 +2,7 @@ import pymysql
 import random
 from datetime import datetime
 
-conn = pymysql.connect(host = 'localhost', user = 'root', password ='pns02089', db='gamja', charset='utf8mb4')
+conn = pymysql.connect(host = 'localhost', user = 'root', password ='', db='gamja', charset='utf8mb4')
 cursor = conn.cursor()
 
 
