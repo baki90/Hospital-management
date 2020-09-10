@@ -35,7 +35,7 @@ def d_t_s(d):  # datetime -> str
 
 print(get_random_datetime('2017-08-01 00:00:00', '2017-08-10 00:00:00'))
 
-conn = pymysql.connect(host = 'localhost', user = 'root', password ='pns02089', db='gamja', charset='utf8mb4')
+conn = pymysql.connect(host = 'localhost', user = 'root', password ='', db='gamja', charset='utf8mb4')
 cursor = conn.cursor()
 
 
