@@ -5,7 +5,7 @@ import pymysql
 conn = pymysql.connect(
     host='localhost',
     user='root',
-    password='pns02089',
+    password='',
     db='gamja',
     charset='utf8',
     cursorclass=pymysql.cursors.DictCursor)
